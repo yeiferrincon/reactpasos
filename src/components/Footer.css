@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.173);
+    transition: background-color 0.3s ease;
+}
+
+.footer:hover{
+    background-color: rgba(255,255,255,0.08);
+}
+
+main{
+    flex: 1;
+}

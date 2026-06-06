@@ -1,0 +1,133 @@
+.personajepikachu{
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+
+    padding: 20px;
+
+    width: 100%;
+
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+}
+
+
+
+@media (max-width: 1200px) {
+
+    .personajepikachu{
+
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+}
+
+
+
+@media (max-width: 900px) {
+
+    .personajepikachu{
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+
+
+@media (max-width: 600px) {
+
+    .personajepikachu{
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+
+
+.personajepikachu > div{
+
+    background: rgba(255,255,255,0.05);
+
+    border: 1px solid rgba(255,255,255,0.15);
+
+    border-radius: 15px;
+
+    padding: 15px;
+
+    text-align: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    transition: all 0.3s ease;
+
+}
+
+
+
+.personajepikachu > div:hover{
+
+    background: rgba(255,255,255,0.10);
+
+    transform: translateY(-5px);
+
+}
+
+
+
+.personajepikachu img{
+
+    width: 100%;
+
+    border-radius: 10px;
+
+}
+
+
+
+.personajepikachu h2{
+
+    font-size: 15px;
+
+    margin: 10px 0;
+
+    text-transform: capitalize;
+
+}
+
+
+
+.info-personajepikachu{
+
+    width: 100%;
+
+    text-align: left;
+
+    margin-top: 10px;
+
+    padding-left: 20px;
+
+}
+
+
+
+.info-personajepikachu li{
+
+    margin: 8px 0;
+
+    font-size: 15px;
+
+}

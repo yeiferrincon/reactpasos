@@ -1,0 +1,49 @@
+.personajes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.personajes > div{
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.personajes > div:hover{
+    background: rgba(255,255,255,0.10);
+    transform: translateY(-5px);
+}
+
+.personajes img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.personajes h2{
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.personajes p{
+    margin: 5px 0;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.info-personaje{
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.info-personaje p{
+    margin: 8px 0;
+}

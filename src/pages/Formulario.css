@@ -1,0 +1,39 @@
+.formulario {
+  width: 400px;
+  margin: 20px auto;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formulario div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.formulario input,
+.formulario select {
+  padding: 8px;
+}
+
+.formulario button {
+  padding: 10px;
+}
+
+.resultado{
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #605959;
+    border-radius: 15px;
+    background-color: #656363;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.resultado h2{
+    margin-top: 0;
+    text-align: center;
+}

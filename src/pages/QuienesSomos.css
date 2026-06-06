@@ -1,0 +1,41 @@
+.QuienesSomos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  background-color: #3232325b;
+}
+
+.QuienesSomos-card,
+.imagen-card {
+  background-color: #1e293b;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(200, 14, 14, 0.194);
+  max-width: 500px;
+  color: white;
+}
+
+.QuienesSomos-card h1,
+.imagen-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.QuienesSomos-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #cbd5e1;
+}
+
+.img-nosotros {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  margin-top: 10px;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(209, 202, 202, 0.4);
+}
