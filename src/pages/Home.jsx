@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="home">
       <section className="home-card">
-        <h1>Introducción</h1>
+        <h1>Prueba</h1>
 
         <p>
           Esta es una página de práctica desarrollada con{" "}
