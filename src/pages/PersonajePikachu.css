@@ -2,53 +2,19 @@
 
     display: grid;
 
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 
-    gap: 20px;
+    gap: 40px;
 
-    padding: 20px;
+    padding: 70px;
 
     width: 100%;
 
-    max-width: 1400px;
+    max-width: 100%;
 
     margin: 0 auto;
 
-}
-
-
-
-@media (max-width: 1200px) {
-
-    .personajepikachu{
-
-        grid-template-columns: repeat(3, 1fr);
-
-    }
-
-}
-
-
-
-@media (max-width: 900px) {
-
-    .personajepikachu{
-
-        grid-template-columns: repeat(2, 1fr);
-
-    }
-
-}
-
-
-
-@media (max-width: 600px) {
-
-    .personajepikachu{
-
-        grid-template-columns: 1fr;
-
-    }
+    justify-content: center;
 
 }
 
@@ -73,6 +39,12 @@
     align-items: center;
 
     transition: all 0.3s ease;
+
+    max-width: 280px;
+
+    width: 100%;
+
+    box-sizing: border-box;
 
 }
 
