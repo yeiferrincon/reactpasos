@@ -19,10 +19,12 @@
 .formulario input,
 .formulario select {
   padding: 8px;
+  border-radius: 10px;
 }
 
 .formulario button {
   padding: 10px;
+  border-radius: 10px;
 }
 
 .resultado{
