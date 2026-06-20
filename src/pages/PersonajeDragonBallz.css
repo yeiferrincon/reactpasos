@@ -1,7 +1,7 @@
 .personajedragonballz{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 60px;
     padding: 70px;
 }
 
@@ -9,18 +9,24 @@
     background: rgba(255,255,255,0.05);
     border: 1px solid rgba(255,255,255,0.15);
     border-radius: 20px;
-    padding: 5px;
+    padding: 20px 5px 5px 5px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: all .4s ease;
     overflow: visible;
+    max-width: 320px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .personajedragonballz > div:hover{
     transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(0,0,0,.35);
+    z-index: 50;
+    border: none;
 }
 
 .imagen-container{
@@ -41,29 +47,53 @@
 }
 
 .imagen-container:hover img{
-    transform: scale(1.1) rotateY(12deg);
+    transform: scale(1.2) rotateY(15deg);
 }
 
 .personajedragonballz h2{
     margin: 5px 0;
-    font-size: 20px;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
 
 .info-personajedragonballz{
     width: 100%;
-    list-style: disc;
+    max-width: 180px;
+    list-style: none;
     text-align: left;
     margin: 2px 0;
-    padding-left: 55px;
+    padding: 5px 0;
+    overflow: visible;
+    box-sizing: border-box;
+    align-self: flex-start;
 }
 
 .info-personajedragonballz li{
     margin: 5px 0;
-    font-size: 18px;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: block;
+    position: relative;
+    padding-left: 12px;
+}
+
+.info-personajedragonballz li::before{
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: white;
 }
 
 .personajedragonballz > div:hover .imagen-container img{
-    transform: scale(1.3) translateY(-15px);
-    z-index: 10;
+    transform: scale(1.4) translateY(-20px);
+    z-index: 100;
     position: relative;
 }
