@@ -1,6 +1,7 @@
 .formulario {
   width: 400px;
   margin: 20px auto;
+  padding: 0 20px;
 }
 
 .formulario form {
@@ -36,4 +37,12 @@
 .resultado h2{
     margin-top: 0;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+  .formulario {
+    width: 90%;
+    padding: 0 15px;
+    margin: 20px auto;
+  }
 }
